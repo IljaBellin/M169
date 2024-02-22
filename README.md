@@ -20,3 +20,7 @@
 [40-Add-ons](/40-Add-ons)
 
 [50-Reflexion](/50-Reflexion)
+
+[70-Notes](/70-Notes)
+
+[80-VM](/80-VM)
