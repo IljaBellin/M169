@@ -5,7 +5,7 @@
 10-Toolumgebung(/10-Toolumgebung)
 
 
-[Git Befehle](/03c_Die_drei_Status_GIT-Projekt_Kommandos.jpg)
+[70-Notes](/Notes)
 
 [10-Toolumgebung](/10-Toolumgebung)
 
