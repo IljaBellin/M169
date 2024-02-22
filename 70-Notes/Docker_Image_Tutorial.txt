@@ -1,0 +1,33 @@
+
+Name:
+Webserver_for_Docker
+
+- Amazon Linux AMI
+- t2.micro
+- key pair: dockerkeypair
+
+$ sudo yum update -y
+$ sudo yum install -y docker
+$ sudo yum install -y podman
+
+$ sudo docker --version
+$ sudo service docker start
+$ sudo docker info
+$ sudo systemctl is-active docker
+
+
+-----------------------
+
+$ docker
+$ docker image
+$ docker pull mariadb
+$ docker image ls / docker images / docker image list 
+$ docker image history <ImageID>
+$ docker image inspect <ImageID> 
+
+$ docker pull mariadb:10.5.1
+$ docker image ls
+
+wie löschen?
+$ docker image rm <ImageID>
+$ docker rmi <ImageID> 

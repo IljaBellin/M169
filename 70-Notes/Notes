@@ -1,7 +1,7 @@
-Gitignore File nutzen
+# Gitignore File nutzen
 
-.gitignore bei git-root erstellen
+- .gitignore bei git-root erstellen
 
-files/ordner untereinander hereinschreiben
+-files/ordner untereinander hereinschreiben
 
-bei Ordnen "/" am ende des Namens, z.B. 60-Keys/
+-bei Ordnen "/" am ende des Namens, z.B. 60-Keys/
