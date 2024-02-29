@@ -1,0 +1,53 @@
+installed HeidiSQL locally
+
+docker ps
+
+docker ps -a
+
+docker run .... -p 3306:3306 -> ports mappen
+
+docker volume ls
+
+docker volume create beispielname
+
+docker volume inspect beispielname
+
+Docker run .. -v beispielname:/var/lib/mysql..  volume referenzieren
+
+wenn --rm als run option mitgegeben wird wird er direkt gelöscht bei stoppen
+
+"--restart always" ist autostart für container in run befehl
+
+
+---
+
+
+# Docker run Notes
+
+## Basic Docker Commands
+
+- **List running containers**: `docker ps`
+- **List all containers (running and stopped)**: `docker ps -a`
+
+## Port Mapping
+
+- When running a container, use `-p` to map ports:
+  - `docker run ... -p 3306:3306` maps the host's port 3306 to the container's port 3306.
+
+## Volume Management
+
+- **List volumes**: `docker volume ls`
+- **Create a volume**: `docker volume create beispielname`
+- **Inspect a volume**: `docker volume inspect beispielname`
+- To reference a volume when running a container, use `-v`:
+  - `docker run .. -v beispielname:/var/lib/mysql..` references the `beispielname` volume at `/var/lib/mysql` in the container.
+
+## Container Lifecycle Options
+
+- **Automatic container removal**: Adding `--rm` to the `docker run` command automatically removes the container when it stops.
+- **Automatic container restart**: Use `--restart always` in the `docker run` command to enable auto-restart for the container.
+
+## Other
+
+- **Environment Variables**: Add with `--env`, like `--env Variable=variable value`
+
